@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Интерактивный калькулятор</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calculator">
+    <h1>Интерактивный калькулятор</h1>
+
+    <div class="inputs">
+      <input id="firstNumber" type="text" placeholder="Введите первое число">
+      <input id="secondNumber" type="text" placeholder="Введите второе число">
+    </div>
+
+    <div class="actions">
+      <button data-action="sum">Сумма</button>
+      <button data-action="difference">Разность</button>
+      <button data-action="product">Произведение</button>
+      <button data-action="division">Деление</button>
+    </div>
+
+    <div id="result" class="result">Результат появится здесь</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
